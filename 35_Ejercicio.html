@@ -1,49 +1,38 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Accesible</title>
 </head>
 <body>
-    
-
     <header>
-        <h1>REGISTRATE EN NUESTRA PAGINA</h1>
+        <h1>REGÍSTRATE EN NUESTRA PÁGINA</h1>
     </header>
-
-    <form >
+    
+    <form>
         <fieldset>
             <legend>Formulario</legend>
-            <br>
-            <label for="">
-                Nombre <br>
-                <input type="text" required>
-            </label>
-            <br>
-            <br>
-            <label for="">
-                Apellido <br>
-                <input type="text" required>
-            </label>
+            
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
             <br>
             <br>
-            <label for="">
-                Email <br>
-                <input type="email" required>
-            </label>
-
+            
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" required>
+            
             <br>
             <br>
-
-            <button type="submit">
-                Registrarse
-            </button>
-
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <br>
+            <br>
+            
+            <button type="submit">Registrarse</button>
         </fieldset>
     </form>
-
-
-
 </body>
 </html>
