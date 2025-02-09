@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        :root{
+            --color-black:#000000;
+            --color-grey:#808080;
+            --color-white:#FFFFFF;
+        }
+        
+
+        table {
+            background-color: var(--color-grey);
+
+            nav .nav_list a.nav__link{
+                text-decoration: none;
+                color: var(--color-black);
+                padding: 10px;
+            }         
+        }
+
+        .buscador{
+            width: 200px;
+            height: 15px;
+        }
+
+        
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+
+            <table width="750">
+                <td>
+                    <img src="/img/logosRedesSociales/logoYoutube.png" width="60">
+                </td>
+
+                <td>
+                    <form>                                 
+                        <input type="text" id="buscar" name="buscar" class="buscador">
+                        <button type="submit">
+                            Buscar
+                        </button>
+                    </form>
+                </td>
+                
+                <td>
+                    <nav class="nav">
+                      <ul class="nav_list" align="right">
+                        
+                          <a href="#" class="nav__link">Inicio</a>
+                          <a href="#" class="nav__link">Productos</a>
+                          <a href="#" class="nav__link">Blog</a>
+                          <a href="#" class="nav__link">Contacto</a>
+
+                      </ul>
+                    </nav>
+                </td>
+                    
+                
+            </table>
+
+
+    </header>
+
+</body>
+</html>
