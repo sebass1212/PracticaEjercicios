@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .chat{
+            height: 800px;
+            width: 650px;
+            background-color: rgba(0, 255, 55, 0.178);
+            border-radius: 15px;
+            padding: 0px;
+            margin: 0px;
+            border: 0px;
+        }
+
+        .contacto{   
+            background-color: rgba(9, 255, 0, 0.274);
+            border-radius: 15px;
+            padding: 10px;
+         
+            .nombre{
+                text-align: center;
+                font-size: 1.5rem;
+                margin-top:-52px;
+                margin-bottom: 20px;
+
+            }
+
+            .foto_perfil{
+                margin-top: 5px;
+                margin-left: 15px;
+            }
+            
+        }
+        
+        .foto_perfil{
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            border-radius: 50%;
+            height: 60px;
+
+            
+        }
+
+        .mens_1 , .mens_2{
+            background-color: rgba(47, 255, 134, 0.733);
+            display: inline-block;
+            border-radius: 5px;
+            margin-left: 15px;
+            margin-top: 15px;
+            font-size: 1.2rem;
+            
+            p{
+                margin: 5px;
+            }
+        }
+
+        .remitente{
+            background-color: rgba(47, 255, 134, 0.733);
+            
+            display: inline-block;
+            border-radius: 5px;
+            margin-left: 76%;
+            margin-top: 15px;
+            font-size: 1.2rem;
+            
+            p{
+                margin: 5px;
+            }
+        }
+
+        .time_recep time{
+            margin-left: 20px;
+            opacity: 0.4;
+            font-size: 0.8rem;
+        }
+
+        .time_remi time{
+            margin-left: 93%;
+            opacity: 0.4;
+            font-size: 0.8rem;
+        }
+
+        
+        .escribir{
+            margin-left: 15px;
+            border-radius: 8px;
+            height: 40px;
+            width: 81%;
+            font-size: 1.2rem;
+        }
+        
+        .enviar_msj{
+            background-color: rgba(0, 255, 179, 0.493);
+            height: 68px;
+            border-radius: 15px;
+            padding-top: 20px;
+        }
+
+        .boton_msj{
+            height: 30px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0);
+            border: 0px;
+            
+            .img_msj{
+            
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            border-radius: 50%;
+            height: 40px;
+            margin: -5px;
+      
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="chat">
+        <div class="contacto">
+            <img src="/img/logosRedesSociales/perfil.png"  class="foto_perfil">
+            <div class="nombre">Sebastian &#128512;</div> 
+        </div>
+
+        <div class="mens_1">
+            <p>holaaaa</p>
+        </div>
+        <br>
+        <div class="time_recep">
+            <time datetime="2025-02-12T16:00">16:00</time>
+        </div>
+        
+
+        <br>
+
+        <div class="remitente">
+            <p>hola, como estas?</p>
+        </div>
+        <br>
+        <div class="time_remi">
+            <time datetime="2025-02-12T16:00">16:02</time>
+        </div>
+
+        <br>
+
+        <div class="mens_2">
+            <p>bien, tu como te encuentras?</p>
+        </div>
+        <br>
+        <div class="time_recep">
+            <time datetime="2025-02-12T16:00">16:07</time>
+        </div>
+
+        <br>
+
+        <div class="remitente">
+            <p>yo me encuentro </p>
+        </div>
+        <br>
+        <div class="time_remi">
+            <time datetime="2025-02-12T16:00">16:14</time>
+        </div>
+        
+
+        <div class="remitente">
+            <p>mucho mejor &#128511;</p>
+        </div>
+        <br>
+        <div class="time_remi">
+            <time datetime="2025-02-12T16:00">16:14</time>
+        </div>
+        
+        <br>
+
+        <div class="mens_2">
+            <p>me alegra saber eso</p>
+        </div>
+        <br>
+        <div class="time_recep">
+            <time datetime="2025-02-12T16:00">16:16</time>
+        </div>
+        
+  
+        
+        <div class="mens_2">
+            <p>vendras a la fiesta?</p>
+        </div>
+  
+        <div class="time_recep">
+            <time datetime="2025-02-12T16:00">16:16</time>
+        </div>
+
+
+        <div class="mens_2">
+            <p>&#x1F973; &#x1F973; &#x1F973;</p>
+        </div>
+        <br>
+        <div class="time_recep">
+            <time datetime="2025-02-12T16:00">16:17</time>
+        </div>
+        
+        <br>
+        <br>
+
+        <div class="enviar_msj">
+                <form action="">
+                    <input class="escribir" type="text">
+                    
+                    <button class="boton_msj" type="submit">
+                        <img src="/img/logosRedesSociales/enviar_msj.png" class="img_msj">
+                    </button>  
+                </form>
+                
+       
+        </div>
+
+        
+        
+       
+    </div>
+
+
+
+</body>
+</html>
