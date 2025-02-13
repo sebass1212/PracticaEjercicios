@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+
+            margin: 0%;
+            height: 100vh;
+
+
+            animation-name: animacion-fondo;
+            animation-duration: 6s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+
+        .sol{
+            position: absolute;
+            top: 10rem;
+            left: 25rem;
+
+        }
+        .sol circle {
+            animation-name: animacion-eclipse;
+            animation-duration: 6s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+        
+        @keyframes animacion-fondo{
+            0%{
+                background-color:white;
+            }
+
+            100%{
+                background-color: rgb(56, 53, 53);
+            }
+        }
+
+        @keyframes animacion-eclipse {
+        0% {
+            fill:yellow;
+        }
+
+        100% {
+            fill:rgb(54, 52, 52);
+        }
+        }
+    </style>
+</head>
+<body>
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="sol"
+        width="120" height="120" viewBox="0 0 120 120">
+        <circle cx="60" cy="60" r="50"
+        fill="yellow" />
+    </svg> 
+
+</body>
+</body>
+</html>
