@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');        
+        *{
+            margin: 0%;
+            font-family: "Playfair Display", serif;
+        }
+        
+        .contenedor{
+       
+            width: 13rem;
+            height: 40rem;
+            margin: 2rem;
+            padding: 2rem;
+            border: 2px solid;
+            border-color: rgba(128, 128, 128, 0.486);
+        }
+
+        p.titulo{
+            font-size: 1.8rem;
+            
+        }
+
+        p.descrip{
+            font-size: 0.9rem;
+            width: 11.5rem;
+            padding-bottom: 1rem;
+        }
+
+        p.opaco{
+
+            opacity: 0.8;
+            font-size: 0.7rem;
+            width: 10rem;
+        }
+        p.precio{
+            margin-top: -1rem;
+            font-size: 2.5rem;
+
+        }
+
+        p.pregunta{
+            color: darkcyan;
+            font-size: 0.9rem;
+            font-weight: 700;
+
+        }
+
+        button{
+            border: 0;
+            color: white;
+            background-color:darkcyan ;
+            height: 2rem;
+            width: 11rem;
+            border-radius: 2px;
+            margin-block: 1rem 1rem;
+        }
+        sup{
+            font-size: 0.5rem;
+            margin-right: 0px;
+        }
+
+        .lista{
+
+            margin-left: -1.4rem;
+            list-style-position: outside;
+            li{
+                
+                padding-bottom: 0.7rem;
+                font-size: 1rem;
+                opacity: 0.8;
+
+                
+            }
+        }
+
+        .acerca{
+            margin-block: 1rem;
+            font-weight: 700;
+            a{
+                text-decoration: none;
+                color: rgb(1, 122, 122);
+            }
+        }
+    </style>
+</head>
+<body>
+        <div class="contenedor">
+            <p class="titulo">
+                Premiun
+            </p>
+            <br>
+            <br>
+            <p class="descrip">
+                Funciones avanzadas para profesionales que necesitan mas personalizacion
+            </p>
+            
+            <p class="opaco">
+                Desde
+            </p>
+            <p class="precio">
+               <sup>$</sup> 299
+            </p>
+            <p class="opaco">
+                /mes basados en 10.000 contacto*
+            </p>
+            <p class="pregunta">
+                ¿Cuantos contactos tienes?
+            </p>
+
+            <button type="button">
+                Comprar ahora
+            </button>
+
+            <p class="descrip">
+                Todo lo que incluye el plan Standar, mas:
+            </p>
+
+            <ul class="lista">
+                <li>
+                    Segmentacion avanzada
+                </li>
+                <li>
+                    Pruebas multivariantes
+                </li>
+                <li>
+                    Informes comparativos
+                </li>
+                <li>
+                    Puestos ilimitados y accesos basados en funciones
+                </li>
+                <li>
+                    Asistencia tecnica telefonica
+                </li>
+            </ul>
+
+             <div class="acerca">
+                <a href="#">Acerca de Premiun</a>
+             </div>
+        </div>
+</body>
+</html>
