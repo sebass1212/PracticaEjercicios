@@ -4,77 +4,279 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 1</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap');      
+         *{
+            font-family: "Public Sans", serif;
+        }
+       .contenedor_html{
+            
+            .lec{
+                text-align: center;
+                margin-top: -3.8rem;
+                font-size: 1.3rem;
+            }
+            .titulo{
+                font-size: 3.5rem;
+                text-align: center;
+                padding-bottom: 0rem;
+            }
+
+        }
+
+
+        .titulo{
+            animation-name: titulo-animacion;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes titulo-animacion{
+            0%{
+                color: black;
+            }
+            100%{
+                color: rgb(127, 219, 255);
+            }
+        
+        }
+
+        .lec{
+            animation-name: lec-animacion;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-delay: 5s;
+        }
+
+        @keyframes lec-animacion{
+            0%{
+                color: black;
+            }
+            100%{
+                color: rgb(127, 219, 255);
+            }
+        }
+
+
+        .contenedor_html .lecciones{
+            text-align: center;
+            div{
+
+                display: inline-block;
+                vertical-align: top;
+                padding: 3rem;
+            }
+            .subtitulo{
+                padding-bottom: 2rem;
+                font-size: 1.5rem;
+            }
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
 </head>
 <body>
-    <table>
+    <div class="contenedor_html">
+        <p class="titulo">
+            HTML
+        </p>
+        <p class="lec">
+            Lecciones
+        </p>
+        <div class="lecciones">
+            <div>
+                <p class="subtitulo">FORMATO</p>
+                <p><a href="/ejer_html/01_Ejercicio.html" target="_blank">Actividad 1</a></p>
+                <p>Actividad 2</p>
+                <p>Actividad 3</p>
+            </div>
+            <div class="hipervinculo">
+                <p class="subtitulo">HIPERVINCULOS</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+                <p>Actividad 3</p>         
+            </div>
+            <div class="lista">
+                <p class="subtitulo">LISTA</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+                <p>Actividad 3</p>
+                <p>Actividad 4</p>
+                <p>Actividad 5</p>
+            </div>
+            <div class="imagenes">
+                <p class="subtitulo">IMAGENES</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+                <p>Actividad 3</p>
+                <p>Actividad 4</p>
+            </div>
+            <div class="tablas">
+                <p class="subtitulo">TABLAS</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+                <p>Actividad 3</p>
+            </div>
+            <div class="formularios">
+                <p class="subtitulo">FORMULATIO</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+                <p>Actividad 3</p>
+                <p>Actividad 4</p>
+            </div>
+            <div class="multimedia">
+                <p class="subtitulo">MULTIMEDIA</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+            </div>
+            <div class="contenido">
+                <p class="subtitulo">CONTENIDO</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+            </div>
+            <div class="interactivos">
+                <p class="subtitulo">INTERACTIVOS</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+                <p>Actividad 3</p>
+            </div>
+            <div class="accesibilidad">
+                <p class="subtitulo">ACCESIBILIDAD</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+            </div>
+        </div>       
+    </div>
 
-        <tr>   
-         
-            <td>HTML</td>
-           
-        </tr>
 
-        <tr> 
-            <th ><a href="ejer_html/01_Ejercicio.html">ejercicio 1</a></th>
-            <th><a href="02_Ejercicio.html">Ejercicio 2</a></th>
-            <th><a href="03_Ejercicio.html">Ejercicio 3</a></th>
-            <th><a href="04_Ejercicio.html">Ejercicio 4</a></th>
-            <th><a href="05_Ejercicio.html">Ejercicio 5</a></th>
-        </tr>
 
-        <tr> 
-            <th><a href="06_Ejercicio.html">ejercicio 6</a></th>
-            <th><a href="07_Ejercicio.html">Ejercicio 7</a></th>
-            <th><a href="08_Ejercicio.html">Ejercicio 8</a></th>
-            <th><a href="menu-del-dia.html">Ejercicio 9</a></th>
-            <th><a href="Teatro.html">Ejercicio 10</a></th>
-        </tr>
 
-        <tr> 
-            <th ><a href="11_Ejercicio.html">ejercicio 11</a></th>
-            <th><a href="12_Ejercicio.html">Ejercicio 12</a></th>
-            <th><a href="13_Ejercicio.html">Ejercicio 13</a></th>
-            <th><a href="14_Ejercicio.html">Ejercicio 14</a></th>
-            <th><a href="15_Ejercicio.html">Ejercicio 15</a></th>
-        </tr>
 
-        <tr> 
-            <th><a href="16_Ejercicio.html">ejercicio 16</a></th>
-            <th><a href="17_Ejercicio.html">Ejercicio 17</a></th>
-            <th><a href="18_Ejercicio.html">Ejercicio 18</a></th>
-            <th><a href="19_Ejercicio.html">Ejercicio 19</a></th>
-            <th><a href="20_Ejercicio.html">Ejercicio 20</a></th>
-        </tr>
 
-        
-        <tr> 
-            <th ><a href="21_Ejercicio.html">ejercicio 21</a></th>
-            <th><a href="22_Ejercicio.html">Ejercicio 22</a></th>
-            <th><a href="23_Ejercicio.html">Ejercicio 23</a></th>
-            <th><a href="24_Ejercicio.html">Ejercicio 24</a></th>
-            <th><a href="25_Ejercicio.html">Ejercicio 25</a></th>
-        </tr>
 
-        <tr> 
-            <th><a href="26_Ejercicio.html">ejercicio 26</a></th>
-            <th><a href="27_Ejercicio.html">Ejercicio 27</a></th>
-            <th><a href="28_Ejercicio.html">Ejercicio 28</a></th>
-            <th><a href="29_Ejercicio.html">Ejercicio 29</a></th>
-            <th><a href="30_Ejercicio.html">Ejercicio 30</a></th>
-        </tr>
+    <div class="contenedor_html">
+        <p class="titulo">
+            CSS
+        </p>
+        <p class="lec">
+            Lecciones
+        </p>
+        <div class="lecciones">
+            <div class="formato">
+                <p class="subtitulo">SELECTORES</p>
+                <p><a href="css/1_ejercicio.html" target="_blank">Actividad 1</a></p>
+                <p>Actividad 2</p>
+                <p>Actividad 3</p>
 
-        <tr> 
-            <th ><a href="31_Ejercicio.html">ejercicio 31</a></th>
-            <th><a href="32_Ejercicio.html">Ejercicio 32</a></th>
-            <th><a href="33_Ejercicio.html">Ejercicio 33</a></th>
-            <th><a href="34_Ejercicio.html">Ejercicio 34</a></th>
-            <th><a href="35_Ejercicio.html">Ejercicio 35</a></th>
-        </tr>
-
-    
-
-        
-
-    </table>
+            </div>
+            <div class="hipervinculo">
+                <p class="subtitulo">VARIABLES</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>      
+            </div>
+            <div class="lista">
+                <p class="subtitulo">BEM</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+            </div>
+            <div class="imagenes">
+                <p class="subtitulo">COLOR</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+                <p>Actividad 3</p>
+            </div>
+            <div class="tablas">
+                <p class="subtitulo">TEXTO</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+                <p>Actividad 3</p>
+                <p>Actividad 4</p>
+                <p>Actividad 5</p>
+            </div>
+            <div class="formularios">
+                <p class="subtitulo">MEDIDAS</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+                <p>Actividad 3</p>
+                <p>Actividad 4</p>
+            </div>
+            <div class="multimedia">
+                <p class="subtitulo">IMAGENES</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+            </div>
+            <div class="contenido">
+                <p class="subtitulo">DISPLAY</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+                <p>Actividad 3</p>
+            </div>
+            <div class="interactivos">
+                <p class="subtitulo">MARGIN</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+                <p>Actividad 3</p>
+            </div>
+            <div class="accesibilidad">
+                <p class="subtitulo">PADDING</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+                <p>Actividad 3</p>
+            </div>
+            <div class="accesibilidad">
+                <p class="subtitulo">BORDER</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+                <p>Actividad 3</p>
+                <p>Actividad 4</p>
+            </div>
+            <div class="accesibilidad">
+                <p class="subtitulo">LISTAS</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+                <p>Actividad 3</p>
+                <p>Actividad 4</p>
+            </div>
+            <div class="accesibilidad">
+                <p class="subtitulo">OVERFLOW</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+            </div>
+            <div class="accesibilidad">
+                <p class="subtitulo">FILTERS</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+            </div>
+            <div class="accesibilidad">
+                <p class="subtitulo">TRANSFORM</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+                <p>Actividad 3</p>
+            </div>
+            <div class="accesibilidad">
+                <p class="subtitulo">TRANSITION</p>
+                <p>Actividad 1</p>
+            </div>
+            <div class="accesibilidad">
+                <p class="subtitulo">ANIMATION</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+                <p>Actividad 3</p>
+                <p>Actividad 4</p>
+                <p>Actividad 5</p>
+                <p>Actividad 6</p>
+            </div>
+            <div class="accesibilidad">
+                <p class="subtitulo">3D</p>
+                <p>Actividad 1</p>
+                <p>Actividad 2</p>
+            </div>
+        </div>       
+    </div>
 </body>
 </html>
