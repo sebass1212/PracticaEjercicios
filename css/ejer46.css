@@ -1,0 +1,46 @@
+body{
+
+    margin: 0%;
+    height: 100vh;
+
+
+    animation-name: animacion-fondo;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.sol{
+    position: absolute;
+    top: 10rem;
+    left: 25rem;
+
+}
+.sol circle {
+    animation-name: animacion-eclipse;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes animacion-fondo{
+    0%{
+        background-color:white;
+    }
+
+    100%{
+        background-color: rgb(56, 53, 53);
+    }
+}
+
+@keyframes animacion-eclipse {
+0% {
+    fill:yellow;
+}
+
+100% {
+    fill:rgb(54, 52, 52);
+}
+}
